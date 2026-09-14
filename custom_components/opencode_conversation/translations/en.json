@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "OpenCode Conversation",
+        "description": "Connect Home Assistant to an OpenCode Server.",
+        "data": {"url": "Server URL", "username": "Username", "password": "Password", "agent": "Agent", "timeout": "Timeout (seconds)"}
+      },
+      "reauth_confirm": {
+        "title": "Reconnect OpenCode",
+        "description": "OpenCode credentials need to be verified again.",
+        "data": {"username": "Username", "password": "Password"}
+      }
+    },
+    "error": {"cannot_connect": "Cannot connect to OpenCode or the agent does not exist.", "invalid_auth": "OpenCode rejected these credentials."},
+    "abort": {"already_configured": "This OpenCode server and agent are already configured.", "reauth_successful": "OpenCode credentials have been updated."}
+  }
+}
