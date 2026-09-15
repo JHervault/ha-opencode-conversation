@@ -11,7 +11,7 @@ CONF_TIMEOUT = "timeout"
 
 DEFAULT_URL = "http://127.0.0.1:4096"
 DEFAULT_USERNAME = "opencode"
-DEFAULT_AGENT = "ha-assist"
+DEFAULT_AGENT = "ha-test"
 DEFAULT_TIMEOUT = 90
 
 SESSION_TTL_SECONDS = 60 * 60 * 6
